@@ -1,0 +1,6 @@
+chain_data/
+logs/
+*.log
+*.txt
+*.pid
+grin-server.toml
