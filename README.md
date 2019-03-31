@@ -23,11 +23,12 @@
 
 1. config `grin-wallet.toml`
     - `./cli.sh wallet init`
-    - set password
+    - set password in file `wallet_pass`
+        - **wallet_pass must has line break**
     - remember **recovery phrase**
     - the path is in `$HOME/.grin/main`
 
-1. start wallet listening
+1. start wallet listening `./start_wallet.sh`
 
 ## cmd
 
