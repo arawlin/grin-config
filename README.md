@@ -57,7 +57,7 @@
     git clone https://github.com/mimblewimble/grin-miner.git
     cd grin-miner
     git submodule update --init
-    cargo build
+    cargo build --release
     ```
 
 1. config `grin-miner.toml`
